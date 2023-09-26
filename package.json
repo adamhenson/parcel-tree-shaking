@@ -1,0 +1,15 @@
+{
+  "name": "parcel-tree-shaking",
+  "description": "Parcel tree shaking test",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "tsc && parcel build src/index.ts --reporter @parcel/reporter-bundle-analyzer"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@parcel/reporter-bundle-analyzer": "^2.9.3",
+    "@types/parcel-env": "0.0.0",
+    "parcel": "^2.9.3",
+    "typescript": "^3.5.3"
+  }
+}
